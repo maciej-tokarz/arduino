@@ -1,5 +1,3 @@
-#include <MultiFunctionShield.h>
-
 int IR_01 = 2;
 
 void setup()
