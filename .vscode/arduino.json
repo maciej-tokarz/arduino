@@ -2,5 +2,5 @@
     "port": "COM6",
     "board": "arduino:avr:uno",
     "programmer": "arduino:avrispmkii",
-    "sketch": "multi-sensor\\multi-sensor.ino"
+    "sketch": "autonomous-car\\autonomous-car.ino"
 }

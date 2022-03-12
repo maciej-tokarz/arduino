@@ -6,6 +6,10 @@ My first Arduino [project](autonomous-car). The goal is to develop a car that ca
 
 ![HW-201](images/hw-201.jpg)
 
+[First connection](https://www.circuito.io/app?components=512,11021,811437)
+
+![Board](images/board.jpg)
+
 ## Knowledge
 
 - [Language Reference](https://www.arduino.cc/reference/en/)
