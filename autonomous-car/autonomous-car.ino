@@ -1,23 +1,22 @@
 #include <MultiFunctionShield.h>
 
 int IR_01 = 5;
-int LED = 10;
 
 void setup()
 {
   pinMode(IR_01, INPUT);
-  pinMode(LED, OUTPUT);
+  pinMode(LED_1_PIN, OUTPUT);
 }
 
 void loop()
 {
   if (digitalRead(IR_01) == HIGH)
   {
-    digitalWrite(LED, HIGH);
+    digitalWrite(LED_1_PIN, HIGH);
   }
   else
   {
-    digitalWrite(LED, LOW);
+    digitalWrite(LED_1_PIN, LOW);
   }
 
   // blinkLed(1000);
@@ -25,8 +24,8 @@ void loop()
 
 void blinkLed(int time)
 {
-  digitalWrite(LED, HIGH);
+  digitalWrite(LED_1_PIN, HIGH);
   delay(time);
-  digitalWrite(LED, LOW);
+  digitalWrite(LED_1_PIN, LOW);
   delay(time);
 }
