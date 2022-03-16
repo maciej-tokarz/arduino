@@ -1,6 +1,6 @@
 {
-    "port": "COM8",
+    "port": "COM6",
     "board": "arduino:avr:uno",
     "programmer": "arduino:avrispmkii",
-    "sketch": "autonomous-car\\autonomous-car.ino"
+    "sketch": "distance-sensor\\distance-sensor.ino"
 }
